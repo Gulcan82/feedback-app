@@ -1,8 +1,8 @@
 # Build the backend app container
 docker build \
-    -t feedback-app:v4.0 \
+    -t feedback-app:v4.5 \
     -t feedback-app:latest \
-    -t gulcan82/feedback-app:v4.0 \
+    -t gulcan82/feedback-app:v4.5 \
     -t gulcan82/feedback-app:latest .
 
 # Create a docker network for the app
